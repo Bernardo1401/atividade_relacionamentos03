@@ -45,4 +45,15 @@ INSERT INTO quartos (numero, suite, reservado) VALUES
 (1, TRUE, TRUE),
 (2, FALSE, TRUE),
 (3, FALSE, TRUE),
-(4, TRUE, FALSE);
+(4, TRUE, FALSE;)
+(5, FALSE, FALSE)
+
+INSERT INTO reservas (id_hospede, id_quarto, data_reserva, data_inicio, data_fim) VALUES
+(1, 1, '2024-08-15', '2024-11-02', NULL),
+(2, 2, '2024-10-29', '2024-11-04', NULL),
+(3, 3, '2024-05-12', '2024-11-04', NULL),
+(4, 4, '2023-09-12', '2024-02-08', '2024-03-10'),
+
+
+
+
