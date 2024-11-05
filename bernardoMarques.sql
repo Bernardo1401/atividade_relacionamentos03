@@ -41,3 +41,8 @@ INSERT INTO hospedes (nome, sexo, idade, email, telefone) VALUES
 ('João', 'Masculino', 25, 'joao@gmail.com', '(19) 99723-9653'),
 ('Eduardo', 'Masculino', 20, 'eduardo@gmail.com', '(19) 99731-1920');
 
+INSERT INTO quartos (numero, suite, reservado) VALUES
+(1, TRUE, TRUE),
+(2, FALSE, TRUE),
+(3, FALSE, TRUE),
+(4, TRUE, FALSE);
